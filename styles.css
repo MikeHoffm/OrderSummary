@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card {
+    width: 350px;
+    border-radius: 16px;
+    background-color: white;
+    margin-top: 5%;
+    padding-bottom: 4px;
+}
+
+/* Top Portion of Card */
+
+.illustration {
+    max-width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.summary-info {
+    margin: 0 15% 0 15%;
+    color: gray;
+}
+
+/* Annual Plan Info */
+
+.plan-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 85px;
+    margin: 5% 4% 0 4%;
+    border-radius: 16px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.music-note {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.annual {
+    flex: 2;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.annual-title{
+    font-weight: bold;
+    margin: 0;
+}
+
+.annual-price {
+    margin: 0;
+}
+
+.change-link  {
+    flex: 2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+
+.change-link:hover {
+text-decoration: none;
+color: hsl(224, 23%, 55%);
+}
+
+/* Button */
+
+button {
+    border-style: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 4% 28%;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5% 0 5% 0;
+}
+
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+/* Cancel Order */
+
+.cancel-order {
+    display: block;
+    margin-bottom: 8%;
+    font-size: 14px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(98, 97, 97);
+}
+
+.cancel-order:hover {
+    color: rgb(46, 44, 44);
+}
+
+/* FOOTER */
+
+.attribution {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+}
+
+a:hover {
+    color: firebrick;
+}
+
+/* Media Queries - Mobile */
+@media (max-width:700px) {
+    .main-card {
+        margin-top: 12%;
+    }
+    
+} 
